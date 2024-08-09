@@ -4,8 +4,8 @@ import Review from './Review'
 const App = () => {
   return (
    <main>
-    <section className="container">
-      <h1 className="review-heading">Our Reviews</h1>
+    <section className="container" id='review-heading'>
+     
       <Review/>
     </section>
    </main>
